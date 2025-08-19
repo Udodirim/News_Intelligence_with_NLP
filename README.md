@@ -20,6 +20,20 @@ Everything is packaged into an **interactive Streamlit app** where you can explo
 
 ---
 
+## File Structure
+
+```
+News_intelligence_with_NLP/
+├── data/                               # Raw + processed datasets  
+├── outputs/                            # Generated CSV results  
+├── streamlit_app.py                    # Interactive Streamlit dashboard  
+├── News_Intelligence_with_NLP.ipynb    # Jupyter/Colab notebook with pipeline steps  
+├── README.md                           # Project documentation (this file)  
+└── LICENSE                             # MIT license
+```
+
+---
+
 ## What the project does  
 
 - **Subcategorization**  
@@ -92,17 +106,6 @@ Everything is packaged into an **interactive Streamlit app** where you can explo
   Applied dictionary-enforced logic and human validation to improve consistency.  
 
 ---
-
-## File Structure  
-
-News_intelligence_with_NLP/
-│
-├── data/ # Raw + processed datasets
-├── outputs/ # Generated CSV results
-├── streamlit_app.py # Interactive dashboard
-├── News_Intelligence_with_NLP.ipynb # Notebook with pipeline steps
-├── README.md # Project documentation
-└── LICENSE # MIT license
 
 
 ## Future Improvements  
